@@ -28,6 +28,9 @@
                 <DataGridTextColumn Header="Order No:" Binding="{Binding OrderNo}" />
                 <DataGridTextColumn Header="Order Date:" Binding="{Binding OrderDate}" />
                 <DataGridTextColumn Header="Client:" Binding="{Binding Client.ClientName}" />
+                <DataGridTextColumn Header="Product:" Binding="{Binding ProductType.ProductTypeName}" />
+                <DataGridTextColumn Header="State:" Binding="{Binding Property.State}" />
+                <DataGridTextColumn Header="County:" Binding="{Binding Property.County}" />
             </DataGrid.Columns>
         </DataGrid>
     </Grid>
