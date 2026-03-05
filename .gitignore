@@ -1,0 +1,19 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.db
+*.log
+*.cache
+*.pdb
+*.mdb
+
+# Rider / VsCode
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
